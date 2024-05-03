@@ -16,6 +16,9 @@ public class Main {
         System.out.println(AdressBook.get("Kc"));
         System.out.println(AdressBook.size());
 
+        // U
+        AdressBook.put("Kc","filling station");
+
         // D
         AdressBook.remove("Kc");
         System.out.println(AdressBook);
